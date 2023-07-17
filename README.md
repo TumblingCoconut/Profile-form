@@ -2,6 +2,9 @@
 A website that takes in information and display it as a profile card
 
 # How to use
+Clone the repository or download it. 
+Then run the command ```npm run dev``` directory of the project. After the terminal launches the project, the website can be access through local host at ```http://localhost:3000```. To stop the project, go to the terminal and enter control c to end the process.
+
 To use the site, fill out the form in the home page and click submit. 
 The form should redirect to a profile card page with the information displayed. 
 There is a button in the lower left corner to return to the homepage
