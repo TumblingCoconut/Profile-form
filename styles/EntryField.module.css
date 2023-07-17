@@ -1,0 +1,52 @@
+.field{
+  position: relative;
+  margin-bottom: 20px;
+}
+.input{
+  width: 300px;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 19px;
+  padding: 0 15px;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+.label{
+  position: absolute;
+  background: #2C5F2D;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 20px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+.input:focus{
+  border: 2px solid #E3B448;
+}
+.input:focus ~ label,
+.input:valid ~ label{
+  top: 0;
+  left: 15px;
+  font-size: 16px;
+  padding: 0 5px;
+  
+}
+
+.button {
+  width: 300px;
+  height: 45px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-size: 16px;
+  transition: .3s;
+
+}
+
+.button:hover{
+  border-color: #CBD18F;
+  background-color: #CBD18F;
+  font-size: 20px;
+}
